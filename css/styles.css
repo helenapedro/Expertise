@@ -506,6 +506,12 @@ a {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .grid--1x4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 /* Testimonials */
 .testimonial {
   padding: 3rem;
